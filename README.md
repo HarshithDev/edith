@@ -2,5 +2,5 @@
 Authentication / Registration Module
 
 
-#Written in GoLang
-#Database postresql
+# Written in GoLang
+# Database postresql
