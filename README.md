@@ -1,0 +1,2 @@
+# edith
+Authentication / Registration Module
