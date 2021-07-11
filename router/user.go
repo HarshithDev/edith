@@ -41,7 +41,7 @@ func CreateUser(c *fiber.Ctx) error {
 	}
 
 	if count := db.DB.Where(&models.User{UserName: u.UserName}).First(new(models.User)).RowsAffected; count > 0 {
-		errors.Err, errors.Email = true, "Username is already registered"
+		errors.Err, errors.Email = true, "Username is already registered !"
 	}
 	if errors.Err {
 		return c.JSON(errors)
